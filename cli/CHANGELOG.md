@@ -1,5 +1,20 @@
 # cline
 
+## [2.11.0]
+
+### Added
+
+- `read_file` tool now supports chunked reading for targeted file access
+
+### Fixed
+
+- Exclude `new_task` tool from system prompt in yolo/headless mode
+
+### Changed
+
+- Pin axios version to ensure package integrity
+- Polish `Notification` hook functionality
+
 ## [2.9.0]
 
 ### Added
